@@ -1,0 +1,128 @@
+body{
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: none;    
+} 
+
+/* color scheme */
+.blueA{
+    color: #CAF0F8;
+}
+.blueB{
+    color: #90E0EF;
+}
+.blueC{
+    color: #00B4D8;
+}
+.blueD{
+    color: #0077B6;
+}
+.blueE{
+    color: #03045E;
+}
+.blueEB{
+    background-color: #00B4D8;
+}
+.bginfo{
+    background-color: #0DCAF0;
+}
+.homebody{
+    background-image: url(..//Media/background\ pic\ robotic\ web.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+
+
+}
+
+
+/* Home Page Start */
+
+/* Navbar Start   */
+.navbar{
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.2);
+}
+.navbar-brand {
+    /* margin-top: 5px; */
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: px;
+}
+.navbar-brand span{
+    text-transform: capitalize;
+}
+ .navbar-brand img{
+    width: 40px;
+    /* margin-bottom: 10px; */
+}
+.nav-item a:hover{
+    font-weight: bold;
+}
+/* Navbar End  */
+/* Home Page End  */
+
+/* more is coming soon  */
+.more{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+/* more is coming soon  */
+
+/* footer start  */
+.footerArea{
+    background-color: #03045E;
+    padding: 60px 0px;
+}
+.footericon img{
+    width: 40px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.end{
+    background-color: #03045E;
+}
+.footer a{
+    text-decoration: none;
+    list-style: none;
+}
+.footerArea a{
+    text-decoration: none;
+}
+
+
+/* footer end  */
+/* About Page  */
+.about{
+    text-decoration: underline;
+}
+/* About End  */
+
+/* service page  */
+.serivcesArea a{
+    text-decoration: none;
+}
+.container .row .hover:hover{
+    background-color: #03045E;
+    transition: 1s;
+}
+.background{
+    box-shadow: 0px 0px 20px 0px rgba(0,71,255,0.6);
+-webkit-box-shadow: 0px 0px 20px 0px rgba(0,71,255,0.6);
+-moz-box-shadow: 0px 0px 20px 0px rgba(0,71,255,0.6);
+}
+
+/* serivces page end  */
